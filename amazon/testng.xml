@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-Suite" parallel="false" preserve-order="true">
+   <test name="ProductAmazon">
+       <classes> 
+          <class name="ui_tests.AmazonCheckoutScript" />          
+       </classes>
+   </test>
+</suite>  
+  
